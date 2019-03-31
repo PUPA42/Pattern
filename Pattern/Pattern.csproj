@@ -139,6 +139,12 @@
     <Compile Include="State\StartState.cs" />
     <Compile Include="State\StatePatternDemo.cs" />
     <Compile Include="State\StopState.cs" />
+    <Compile Include="Strategy\Context.cs" />
+    <Compile Include="Strategy\IStrategy.cs" />
+    <Compile Include="Strategy\OperationAdd.cs" />
+    <Compile Include="Strategy\OperationMultipley.cs" />
+    <Compile Include="Strategy\OperationSubstract.cs" />
+    <Compile Include="Strategy\StrategyPatternDemo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

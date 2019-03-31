@@ -11,15 +11,8 @@ namespace Pattern
     {
         static void Main(string[] args)
         {
-            var rob = Null_Object.CustomerFactory.GetCustomer("Rob");
-            var peter = Null_Object.CustomerFactory.GetCustomer("Peter");
-
-            Console.WriteLine(rob.GetName());
-            Console.WriteLine(peter.GetName());
-            
-
+            Strategy.StrategyPatternDemo.Test();
             Console.ReadLine();
         }
-
     }
 }
