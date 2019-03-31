@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9097CD5A-F258-447A-8917-C12AC6B3D498}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Pattern</RootNamespace>
+    <AssemblyName>Pattern</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Abstract_Factory\AbstractFactory.cs" />
+    <Compile Include="Abstract_Factory\Circle.cs" />
+    <Compile Include="Abstract_Factory\ColorFactory.cs" />
+    <Compile Include="Abstract_Factory\FactoryProducer.cs" />
+    <Compile Include="Abstract_Factory\Green.cs" />
+    <Compile Include="Abstract_Factory\IColor.cs" />
+    <Compile Include="Abstract_Factory\IShape.cs" />
+    <Compile Include="Abstract_Factory\Rectangle.cs" />
+    <Compile Include="Abstract_Factory\Red.cs" />
+    <Compile Include="Abstract_Factory\ShapeFactory.cs" />
+    <Compile Include="Abstract_Factory\Square.cs" />
+    <Compile Include="Adapter\AudioPlayer.cs" />
+    <Compile Include="Adapter\IAdvancedMediaPlayer.cs" />
+    <Compile Include="Adapter\IMediaPlayer.cs" />
+    <Compile Include="Adapter\MediaAdapter.cs" />
+    <Compile Include="Adapter\Mp4Player.cs" />
+    <Compile Include="Adapter\VlcPlayer.cs" />
+    <Compile Include="Bridge\Circle.cs" />
+    <Compile Include="Bridge\GreenCircle.cs" />
+    <Compile Include="Bridge\IDrawAPI.cs" />
+    <Compile Include="Bridge\RedCircle.cs" />
+    <Compile Include="Bridge\Shape.cs" />
+    <Compile Include="Builder\Bottle.cs" />
+    <Compile Include="Builder\Burger.cs" />
+    <Compile Include="Builder\ChickenBurger.cs" />
+    <Compile Include="Builder\Coke.cs" />
+    <Compile Include="Builder\ColdDrink.cs" />
+    <Compile Include="Builder\IPacking.cs" />
+    <Compile Include="Builder\Item.cs" />
+    <Compile Include="Builder\Meal.cs" />
+    <Compile Include="Builder\MealBuilder.cs" />
+    <Compile Include="Builder\Pepsi.cs" />
+    <Compile Include="Builder\VegBurger.cs" />
+    <Compile Include="Builder\Wrapper.cs" />
+    <Compile Include="ChainofResponsibility\AbstractLogger.cs" />
+    <Compile Include="ChainofResponsibility\ConsoleLogger.cs" />
+    <Compile Include="ChainofResponsibility\ErrorLogger.cs" />
+    <Compile Include="ChainofResponsibility\FileLogger.cs" />
+    <Compile Include="ChainofResponsibility\Logger.cs" />
+    <Compile Include="Command\BuyStock.cs" />
+    <Compile Include="Command\IOrder.cs" />
+    <Compile Include="Command\SoldStock.cs" />
+    <Compile Include="Command\Stock.cs" />
+    <Compile Include="Composite\Employee.cs" />
+    <Compile Include="Interator\Container.cs" />
+    <Compile Include="Decorator\Circle.cs" />
+    <Compile Include="Decorator\IShape.cs" />
+    <Compile Include="Decorator\Rectangle.cs" />
+    <Compile Include="Decorator\RedShapeDecorator.cs" />
+    <Compile Include="Decorator\ShapeDecorator.cs" />
+    <Compile Include="Facade\Circle.cs" />
+    <Compile Include="Facade\IShape.cs" />
+    <Compile Include="Facade\Rectangle.cs" />
+    <Compile Include="Facade\ShapeMaker.cs" />
+    <Compile Include="Factory\Circle.cs" />
+    <Compile Include="Factory\IShape.cs" />
+    <Compile Include="Factory\Rectangle.cs" />
+    <Compile Include="Factory\ShapeFactory.cs" />
+    <Compile Include="Factory\Square.cs" />
+    <Compile Include="Fillter\AndCriteria.cs" />
+    <Compile Include="Fillter\CriteriaFemale.cs" />
+    <Compile Include="Fillter\CriteriaMale.cs" />
+    <Compile Include="Fillter\ICriteria.cs" />
+    <Compile Include="Fillter\OrCriteria.cs" />
+    <Compile Include="Fillter\Person.cs" />
+    <Compile Include="Fillter\CriteriaSingle.cs" />
+    <Compile Include="FlyWeight\Circle.cs" />
+    <Compile Include="FlyWeight\IShape.cs" />
+    <Compile Include="FlyWeight\ShapeFactory.cs" />
+    <Compile Include="Interpreter\AndExpression.cs" />
+    <Compile Include="Interpreter\IExpression.cs" />
+    <Compile Include="Interpreter\InterpreterPattern.cs" />
+    <Compile Include="Interpreter\OrExpression.cs" />
+    <Compile Include="Interpreter\TerminalExpression.cs" />
+    <Compile Include="Interator\Iterator.cs" />
+    <Compile Include="Interator\NameRespository.cs" />
+    <Compile Include="Mediator\ChatRoom.cs" />
+    <Compile Include="Mediator\User.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Prototype\Circle.cs" />
+    <Compile Include="Prototype\Rectangle.cs" />
+    <Compile Include="Prototype\Shape.cs" />
+    <Compile Include="Prototype\ShapeCache.cs" />
+    <Compile Include="Proxy\IImage.cs" />
+    <Compile Include="Proxy\ProxyImage.cs" />
+    <Compile Include="Proxy\RealImage.cs" />
+    <Compile Include="Singleton\Singleton.cs" />
+    <Compile Include="State\Context.cs" />
+    <Compile Include="State\IState.cs" />
+    <Compile Include="State\StartState.cs" />
+    <Compile Include="State\StatePatternDemo.cs" />
+    <Compile Include="State\StopState.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="FilterDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

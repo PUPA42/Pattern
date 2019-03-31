@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Pattern.Fillter.Person">
+    <Position X="5.25" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EgAAAAAAAAAAAAAEAAAACAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Fillter\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Pattern.Fillter.ICriteria">
+    <Position X="8.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fillter\ICriteria.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
