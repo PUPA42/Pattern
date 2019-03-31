@@ -120,6 +120,10 @@
     <Compile Include="Interator\NameRespository.cs" />
     <Compile Include="Mediator\ChatRoom.cs" />
     <Compile Include="Mediator\User.cs" />
+    <Compile Include="Null Object\AbstractCustomer.cs" />
+    <Compile Include="Null Object\CustomerFactory.cs" />
+    <Compile Include="Null Object\NullCustomer.cs" />
+    <Compile Include="Null Object\RealCustomer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Prototype\Circle.cs" />
