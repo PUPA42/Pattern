@@ -120,6 +120,10 @@
     <Compile Include="Interator\NameRespository.cs" />
     <Compile Include="Mediator\ChatRoom.cs" />
     <Compile Include="Mediator\User.cs" />
+    <Compile Include="Memento\CareTaker.cs" />
+    <Compile Include="Memento\Memento.cs" />
+    <Compile Include="Memento\MementoPatternDemo.cs" />
+    <Compile Include="Memento\Originator.cs" />
     <Compile Include="Null Object\AbstractCustomer.cs" />
     <Compile Include="Null Object\CustomerFactory.cs" />
     <Compile Include="Null Object\NullCustomer.cs" />
@@ -151,8 +155,6 @@
     <None Include="ClassDiagram1.cd" />
     <None Include="FilterDiagram.cd" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Memento\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -2,6 +2,7 @@
 using Pattern.ChainofResponsibility;
 using Pattern.Command;
 using Pattern.Iterator;
+using Pattern.Memento;
 using System;
 using System.Threading;
 
@@ -11,8 +12,10 @@ namespace Pattern
     {
         static void Main(string[] args)
         {
-            Strategy.StrategyPatternDemo.Test();
-            Console.ReadLine();
+            var mementoDemo = new MementoPatternDemo();
+            mementoDemo.Test();
+
+            System.Console.ReadLine();
         }
     }
 }
