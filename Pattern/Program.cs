@@ -3,6 +3,7 @@ using Pattern.ChainofResponsibility;
 using Pattern.Command;
 using Pattern.Iterator;
 using Pattern.Memento;
+using Pattern.Observer;
 using System;
 using System.Threading;
 
@@ -12,9 +13,7 @@ namespace Pattern
     {
         static void Main(string[] args)
         {
-            var mementoDemo = new MementoPatternDemo();
-            mementoDemo.Test();
-
+            ObserverPatternDemo.Test();
             System.Console.ReadLine();
         }
     }

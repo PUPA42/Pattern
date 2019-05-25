@@ -128,6 +128,12 @@
     <Compile Include="Null Object\CustomerFactory.cs" />
     <Compile Include="Null Object\NullCustomer.cs" />
     <Compile Include="Null Object\RealCustomer.cs" />
+    <Compile Include="Observer\BinaryObserver.cs" />
+    <Compile Include="Observer\HexaObserver.cs" />
+    <Compile Include="Observer\Observer.cs" />
+    <Compile Include="Observer\ObserverPatternDemo.cs" />
+    <Compile Include="Observer\OctalObserver.cs" />
+    <Compile Include="Observer\Subject.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Prototype\Circle.cs" />
