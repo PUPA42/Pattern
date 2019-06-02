@@ -5,6 +5,7 @@ using Pattern.Iterator;
 using Pattern.Memento;
 using Pattern.NullObjectPattern;
 using Pattern.Observer;
+using Pattern.Template;
 using System;
 using System.Threading;
 
@@ -14,7 +15,7 @@ namespace Pattern
     {
         static void Main(string[] args)
         {
-            NullObjectPatternDemo.Test();
+            TemplatePatternDemo.Test();
             System.Console.ReadLine();
         }
     }

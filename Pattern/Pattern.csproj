@@ -160,6 +160,10 @@
     <Compile Include="Strategy\OperationMultipley.cs" />
     <Compile Include="Strategy\OperationSubstract.cs" />
     <Compile Include="Strategy\StrategyPatternDemo.cs" />
+    <Compile Include="Template\Cricket.cs" />
+    <Compile Include="Template\FootBall.cs" />
+    <Compile Include="Template\Game.cs" />
+    <Compile Include="Template\TemplatePatternDemo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
