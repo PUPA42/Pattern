@@ -1,13 +1,4 @@
 ﻿
-using Pattern.ChainofResponsibility;
-using Pattern.Command;
-using Pattern.Iterator;
-using Pattern.Memento;
-using Pattern.NullObjectPattern;
-using Pattern.Observer;
-using Pattern.Template;
-using System;
-using System.Threading;
 
 namespace Pattern
 {
@@ -15,7 +6,7 @@ namespace Pattern
     {
         static void Main(string[] args)
         {
-            TemplatePatternDemo.Test();
+            Visitor.VisitorPatternDemo.Test();
             System.Console.ReadLine();
         }
     }

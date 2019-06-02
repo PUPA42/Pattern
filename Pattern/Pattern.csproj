@@ -164,6 +164,14 @@
     <Compile Include="Template\FootBall.cs" />
     <Compile Include="Template\Game.cs" />
     <Compile Include="Template\TemplatePatternDemo.cs" />
+    <Compile Include="Visitor\Computer.cs" />
+    <Compile Include="Visitor\ComputerDisplayVisitor.cs" />
+    <Compile Include="Visitor\IComputerPart.cs" />
+    <Compile Include="Visitor\IComputerVisitor.cs" />
+    <Compile Include="Visitor\KeyBoard.cs" />
+    <Compile Include="Visitor\Monitor.cs" />
+    <Compile Include="Visitor\Mouse.cs" />
+    <Compile Include="Visitor\VisitorPatternDemo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
