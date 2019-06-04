@@ -6,7 +6,7 @@ namespace Pattern
     {
         static void Main(string[] args)
         {
-            Visitor.VisitorPatternDemo.Test();
+            TransferObject.TransferObjectPatternDemo.Test();
             System.Console.ReadLine();
         }
     }

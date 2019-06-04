@@ -164,6 +164,9 @@
     <Compile Include="Template\FootBall.cs" />
     <Compile Include="Template\Game.cs" />
     <Compile Include="Template\TemplatePatternDemo.cs" />
+    <Compile Include="TransferObject\StudentBO.cs" />
+    <Compile Include="TransferObject\StudentVO.cs" />
+    <Compile Include="TransferObject\TransferObjectPatternDemo.cs" />
     <Compile Include="Visitor\Computer.cs" />
     <Compile Include="Visitor\ComputerDisplayVisitor.cs" />
     <Compile Include="Visitor\IComputerPart.cs" />
