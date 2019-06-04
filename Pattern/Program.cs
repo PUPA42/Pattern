@@ -1,12 +1,11 @@
 ﻿
-
 namespace Pattern
 {
     class Pragram
     {
         static void Main(string[] args)
         {
-            TransferObject.TransferObjectPatternDemo.Test();
+            ServiceLocator.ServiceLocatorPatternDemo.Test();
             System.Console.ReadLine();
         }
     }

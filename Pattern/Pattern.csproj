@@ -148,6 +148,13 @@
     <Compile Include="Proxy\IImage.cs" />
     <Compile Include="Proxy\ProxyImage.cs" />
     <Compile Include="Proxy\RealImage.cs" />
+    <Compile Include="ServiceLocator\Cache.cs" />
+    <Compile Include="ServiceLocator\InitialContext.cs" />
+    <Compile Include="ServiceLocator\IService.cs" />
+    <Compile Include="ServiceLocator\Service1.cs" />
+    <Compile Include="ServiceLocator\Service2.cs" />
+    <Compile Include="ServiceLocator\ServiceLocator.cs" />
+    <Compile Include="ServiceLocator\ServiceLocatorPatternDemo.cs" />
     <Compile Include="Singleton\Singleton.cs" />
     <Compile Include="State\Context.cs" />
     <Compile Include="State\IState.cs" />
