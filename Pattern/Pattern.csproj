@@ -111,6 +111,14 @@
     <Compile Include="FlyWeight\Circle.cs" />
     <Compile Include="FlyWeight\IShape.cs" />
     <Compile Include="FlyWeight\ShapeFactory.cs" />
+    <Compile Include="InterceptingFilter\AuthenticationFilter.cs" />
+    <Compile Include="InterceptingFilter\Client.cs" />
+    <Compile Include="InterceptingFilter\DebugFilter.cs" />
+    <Compile Include="InterceptingFilter\FilterChan.cs" />
+    <Compile Include="InterceptingFilter\FilterManager.cs" />
+    <Compile Include="InterceptingFilter\IFilter.cs" />
+    <Compile Include="InterceptingFilter\InterceptingFilterPatternDemo.cs" />
+    <Compile Include="InterceptingFilter\Target.cs" />
     <Compile Include="Interpreter\AndExpression.cs" />
     <Compile Include="Interpreter\IExpression.cs" />
     <Compile Include="Interpreter\InterpreterPattern.cs" />

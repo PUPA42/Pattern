@@ -5,7 +5,7 @@ namespace Pattern
     {
         static void Main(string[] args)
         {
-            ServiceLocator.ServiceLocatorPatternDemo.Test();
+            InterceptingFilter.InterceptingFilterPatternDemo.Test();
             System.Console.ReadLine();
         }
     }

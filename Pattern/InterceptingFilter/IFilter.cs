@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pattern.ServiceLocator
+namespace Pattern.InterceptingFilter
 {
-    interface IService
+    interface IFilter
     {
-        string GetName();
-        void Execute(); 
+        void Execute(string request);
     }
 }
